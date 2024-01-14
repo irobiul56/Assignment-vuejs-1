@@ -3,6 +3,7 @@ import { ref, reactive } from 'vue';
 
 // State
 const tasks = reactive([
+  { name: 'Task 1', time: 50 },
   { name: 'Task 1', time: 60 },
   { name: 'Task 2', time: 75 },
 ]);
